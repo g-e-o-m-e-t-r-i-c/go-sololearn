@@ -14,4 +14,9 @@ func main() {
 	default: // default case is optional
 		fmt.Println("idk this number") // if above conditions not satisfied
 	}
+
+	// NOTE a switch using conditions (i.e. x < 20, x > y || x < y etc.)
+	// does not take a parameter
+	// hence the syntax is
+	// switch { ... }
 }

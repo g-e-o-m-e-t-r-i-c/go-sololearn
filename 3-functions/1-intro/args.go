@@ -6,8 +6,19 @@ func hi(name string) {
 	fmt.Printf("hi %s", name)
 }
 
+/*
+	func name(param type, param type) returnType {
+		// stuff
+	}
+*/
+
 func sum(a, b int) int {
 	return a + b
+}
+
+// multiple return types
+func swapStrInt(s string, n int) (int, string) {
+	return n, s
 }
 
 func main() {
